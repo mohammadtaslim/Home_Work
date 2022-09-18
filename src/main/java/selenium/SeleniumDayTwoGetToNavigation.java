@@ -1,8 +1,10 @@
 package selenium;
 
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SeleniumDayTwoGetToNavigation {
@@ -10,10 +12,7 @@ public class SeleniumDayTwoGetToNavigation {
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws InterruptedException {
 		
-		//WebDriverManager.firefoxdriver().setup();
-		//WebDriver driver = new FirefoxDriver();
-		//WebDriverManager.chromedriver().setup();
-		//WebDriver driver = new ChromeDriver();
+		
 		WebDriverManager.edgedriver().setup();
 		WebDriver driver = new EdgeDriver();
 		
@@ -34,6 +33,7 @@ public class SeleniumDayTwoGetToNavigation {
 		
 		
 		driver.quit();
+		System.out.println("get vs navigate ");
 	
 
 	}

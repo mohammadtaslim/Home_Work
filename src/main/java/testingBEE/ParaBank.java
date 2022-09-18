@@ -25,10 +25,10 @@ public static void main(String[] args) throws InterruptedException{
 	driver.findElement(By.xpath("//a[text()=Register]")).click();
 	
 	driver.findElement(By.id("customer.firstName")).click();
-	/*driver.findElement(By.id("customer.lastName")).sendKeys("taslim");
+	driver.findElement(By.id("customer.lastName")).sendKeys("taslim");
 	driver.findElement(By.id("customer.address.zipCode")).sendKeys("10458");
 	driver.findElement(By.id("customer.username")).sendKeys("Try2gu3s5");
-	driver.findElement(By.name("customer.password")).sendKeys("d13try19g");*/
+	driver.findElement(By.name("customer.password")).sendKeys("d13try19g");
 
 	
 	//Thread.sleep(2000);

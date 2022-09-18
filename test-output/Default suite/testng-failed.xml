@@ -3,20 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.TestNG">
+      <class name="selenium.Calender">
         <methods>
-          <include name="setup_Before_Method"/>
-          <include name="setup_Before_Class"/>
-          <include name="setup_Before_Test"/>
-          <include name="setup_After_Class"/>
-          <include name="dropDownTestThree"/>
-          <include name="setup_After_Test"/>
-          <include name="dropDownTestFour"/>
-          <include name="setup_After_Method"/>
-          <include name="setup_Before_Suite"/>
-          <include name="setup_After_Suite"/>
+          <include name="getCalender"/>
         </methods>
-      </class> <!-- selenium.TestNG -->
+      </class> <!-- selenium.Calender -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
